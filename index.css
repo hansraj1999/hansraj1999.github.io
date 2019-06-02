@@ -34,16 +34,16 @@ font-weight:bold;
  color: #9502cd !important;
 }
 #photo{ 
-
-	
 		background: rgba(0, 0, 0, 0.7); 
 	}
 .container-fluid .container .row .col-sm-6 h6{
+	padding: 0.5%;
 	font-size:20px;
 	font-weight:bold;
 		color: white;
 }
 .container-fluid .container .row .col-sm-6 ul{
+	padding-left: 2%;
 	color: white;
 }
 .container-fluid .container .row .col-sm-6 a{	
@@ -76,7 +76,7 @@ background-color:white;
 	color: white;
   	text-decoration: none;
   	border: 2px solid; 
-  	-webkit-transition-duration: 0.4s; /* Safari */
+  	-webkit-transition-duration: 0.4s; 
   	transition-duration: 0.4s;
   	
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
