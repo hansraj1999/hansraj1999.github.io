@@ -64,16 +64,21 @@ background-color:white;
 #abab .row .col-md-5{background-color: black;}
 
 .container-fluid .row .col-md-7 h5{
+	padding-top: 3%;
+	padding-left: 3%; 
 	font-size:25px;
 	font-weight:bold;
 	}
 
-.container-fluid .row .col-md-7 p{font-size:20px;
+.container-fluid .row .col-md-7 p{
+	padding-left: 3%; 	
+	font-size:20px;
 	color: #9502cd; 
 
 
  }
-.container-fluid .row .col-md-7 button{font-size:20px;
+.container-fluid .row .col-md-7 button{
+	font-size:20px;
 	background-color: black !important;
 	border-color: black;
 	color: white;
@@ -94,6 +99,7 @@ text-decoration: none;
 }
 .col-sm-12 h2{color: #9502cd;
 font-weight: bold;
+padding-top: 2%;
 
 }
 .col-sm-6 h4{color: #9502cd;
