@@ -92,14 +92,14 @@ background-color:white;
 text-decoration: none;
 	color: white !important;}
 .container-fluid .row .col-md-7 button:hover{
-  background-color: #9502cd; /* Green */
+  background-color: #9502cd; 
   color: black;}
 
 #foot{background-color: black;
 }
 .col-sm-12 h2{color: #9502cd;
 font-weight: bold;
-padding-top: 2%;
+padding-top: 3%;
 
 }
 .col-sm-6 h4{color: #9502cd;
