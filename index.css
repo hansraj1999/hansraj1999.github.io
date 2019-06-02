@@ -64,21 +64,21 @@ background-color:white;
 #abab .row .col-md-5{background-color: black;}
 
 .container-fluid .row .col-md-7 h5{
-	padding-top: 5%;
-	padding-left: 5%; 
+	padding-top: 6%;
+	padding-left: 6%; 
 	font-size:25px;
 	font-weight:bold;
 	}
 
 .container-fluid .row .col-md-7 p{
-	padding-left: 5%; 	
+	padding-left: 6%; 	
 	font-size:20px;
 	color: #9502cd; 
 
 
  }
 .container-fluid .row .col-md-7 button{
-	margin-left: 5%;
+	margin-left: 6%;
 	font-size:20px;
 	background-color: black !important;
 	border-color: black;
