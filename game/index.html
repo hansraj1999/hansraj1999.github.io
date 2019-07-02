@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NUCLEAR</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.1.0-web/css/all.css">
+	<link rel="stylesheet"  href="index.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="icon" type="image/ico" href="images/logo.png" />
+
+
+
+</head>
+
+	
+  <body>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Rock Paper Scissors </h1>
+      </div>
+    </div></div>
+
+   <div class="container-fluid" id="scorekeeper">
+    <div class="row" id="score">
+      <div class="col"></div>
+      <div class="col" id="user">
+        user
+      </div>
+      <div class="col" id="comp">
+        comp
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="sp">
+      <span id="user-score">0</span>
+      <span id="u">:</span>
+      <span id="comp-score">0</span>
+      </div>    
+    </div>
+    
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col" id="result">
+        <div class="newres">
+      <p id="rr">Let's Play!</p>
+      </div></div>
+    </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row" id="choices">
+        <div class="col" id="choice">
+          <div id="s">
+            <img src="images/scissors.png" alt="" id="sis" >
+          </div>
+        </div>
+        <div class="col" id="choice">
+          <div id="r">
+            <img src="images/rock.png" alt="" id="roc" >
+          </div>
+        </div>
+        <div class="col" id="choice">
+          <div id="pa">
+            <img src="images/paper.png" alt="" id="pap" >
+          </div>
+        </div>
+    </div>
+  </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col" id="final">
+         <p>Make Your Move.</p>
+        </div></div>
+    </div>
+
+
+
+
+
+
+
+  <script src="aap.js"></script>
+
+  <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+  <script>$('a[href*="#"]')
+
+
+
+
+
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });</script>
+</body>
+</html>

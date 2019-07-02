@@ -1,0 +1,87 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Asap:600,700&display=swap');
+.col-md-12{
+	padding: 10px;
+	background-color:white; 
+}
+.col-md-12 > h1{
+	font-family: Asap,sans-serif;
+	text-align: center;
+	color: #25272E;
+}
+
+body{
+	background-color: #24272E !important;
+}
+#scorekeeper{
+	max-width: 500px;
+  	height: 100px;
+	margin: 20px auto;
+	border: 3px solid white;
+	color: #4B0082;
+	font-size: 45px;
+	border-radius: 4px;
+	font-family: Asap,sans-serif;
+	position: relative;
+}
+
+#score{
+	background: #4B0082;
+	color:white;
+	font-size: 20px;
+	font-family: Asap,sans-serif;
+	text-align: center;
+}
+.sp{
+	text-align: center;
+	color: white;}
+
+#result{font-family: Asap,sans-serif;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+padding: 10px;}
+
+#choices{text-align: center;
+	color: white;
+	font-family: Asap,sans-serif;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	}
+
+#choice{
+		padding: 2px;
+		border-radius: 50%;
+		transition: all 0.3s ease;
+		border: 4px solid white;
+		margin: 10px;
+	}
+
+#choice:hover{ 
+	cursor: pointer;
+	background: #4B0082 }
+
+#final{
+	text-align: center;
+	font-size: 45px;
+	font-family: Asap,sans-serif;
+	color: white;
+	padding: 20px;
+	font-weight: bold;
+
+}
+
+.green-glow{
+	border:4px solid #4dcc7d !important;
+	box-shadow: 0 0 10px #31b43a !important;
+}
+.red-glow{
+	border:4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+.grey-glow{
+	border:4px solid #464647;
+	box-shadow: 0 0 10px #25292b;
+}
